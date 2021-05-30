@@ -1,5 +1,7 @@
 # tokoroten
 
+[![Linux CI](https://github.com/Axentro/tokoroten/actions/workflows/linux-ci.yml/badge.svg)](https://github.com/Axentro/tokoroten/actions/workflows/linux-ci.yml)
+
 tokoroten is one of the approach to use multiple processes in Crystal.
 
 `spawn` is a good feature for executing light tasks concurrently.
