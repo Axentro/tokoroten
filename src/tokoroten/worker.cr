@@ -75,7 +75,7 @@ module Tokoroten
 
     def kill
       return unless process = @process
-      process.kill
+      process.signal(Signal::KILL)
       @process = nil
     end
 

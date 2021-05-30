@@ -1,9 +1,14 @@
 name: tokoroten
-version: 0.1.3
+version: 0.1.4
 
 authors:
   - taicsuzu <taicsuzu@yahoo-corp.jp>
+  - Kingsley <kingsley@axentro.io>
 
-crystal: 0.24.2
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+
+crystal: 1.0.0
 
 license: MIT
