@@ -4,7 +4,7 @@ class MyWorker < Tokoroten::Worker
   def task(message : String)
     r = 0
 
-    1000000000.times do |i|
+    1000000000.times do
       a = 0
       b = 1
       c = 2
